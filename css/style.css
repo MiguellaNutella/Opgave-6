@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+section{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 205px);
+  grid-template-areas: 
+  "img1 img2 img3 img3"
+  "img4 img4 img3 img3"
+  "img5 img5 img6 img6";
+  gap: 10px;
+  padding: 4px;
+}
+
+#img1{
+  grid-area: img1;
+  background-color: red;
+}
+#img2{
+  grid-area: img2;
+  background-color: orangered;
+}
+#img3{
+  grid-area: img3;
+  background-color: orange;
+}
+#img4{
+  grid-area: img4;
+  background-color: yellow;
+}
+#img5{
+  grid-area: img5;
+  background-color: yellowgreen;
+}
+#img6{
+  grid-area: img6;
+  background-color: greenyellow;
+}
